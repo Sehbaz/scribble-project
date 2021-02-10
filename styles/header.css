@@ -14,7 +14,8 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 }
 .heading1
 {
-    font-family: 'Satisfy';
+    
+    font-family: 'Montez', cursive; 
      font-size: 50px;
      color: #2519ff;
     margin: 0px;
