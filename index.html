@@ -41,16 +41,16 @@
 
             <!-- Insert code for All Posts & Create Post button here -->
             <button class="btn1"><b>All Posts</b></button>
-            <button class="btn1" id="su"><b>Create Post</b></button>
+            <button class="btn1"><b>Create Post</b></button>
 
         </div>
 
         <!-- The Modal -->
-        <div id="myModal" class="modal">
+        <div id="signupModal" class="modal">
 
             <!-- Modal content -->
-            <div class="modal-content">
-                <span class="close">&times;</span>
+            <div class="modal-content-signup">
+                <span class="closesignup">&times;</span>
 
                 <h1 id="head1">Get Started</h1>
                 <form>
@@ -62,7 +62,26 @@
                     <input type="password" placeholder="Enter Password" required>
                     <h3 class="sh6">Confirm Password</h3>
                     <input type="password" placeholder="Confirm Password" required><br>
-                    <button id="sub1">Sign Up</button>
+                    <button id="subsignup" class="btn-common">Sign Up</button>
+                </form>
+            </div>
+
+        </div>
+        <!-- The Modal -->
+        <div id="signinModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content-signin">
+                <span class="closesignin">&times;</span>
+
+                <h1 id="head1">Welcome Back</h1>
+                <form>
+                    <h3 class="sh6">Username</h3>
+                    <input type="text" placeholder="Enter Username">
+                    <h3 class="sh6">Password</h3>
+                    <input type="password" placeholder="Enter Password">
+                    <button id="sub1" class="btn-common">Sign In</button><br><br>
+                    <div id="nm">Not a member? <span id="redirect">Sign Up</span></div>
                 </form>
             </div>
 
