@@ -54,3 +54,23 @@ sp.onclick = function () {
     signinmodal.style.display = "none";
     signupmodal.style.display = "block";
 }
+
+// *********MODAL3***************MODAL3*******
+var createModel = document.getElementById("createPostModel");
+
+// Get the button that opens the modal
+var btnCreate = document.getElementById("createp");
+
+// Get the <span> element that closes the modal
+var spanCreate = document.getElementsByClassName("closeCreate")[0];
+
+// When the user clicks on the button, open the modal
+btnCreate.onclick = function () {
+    console.log("hi");
+    createModel.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+spanCreate.onclick = function () {
+    createModel.style.display = "none";
+}

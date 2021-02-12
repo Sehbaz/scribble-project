@@ -41,12 +41,12 @@
 
             <!-- Insert code for All Posts & Create Post button here -->
             <button class="btn1"><b>All Posts</b></button>
-            <button class="btn1"><b>Create Post</b></button>
+            <button class="btn1" id="createp"><b>Create Post</b></button>
 
         </div>
 
         <!-- The Modal -->
-        <div id="signupModal" class="modal">
+        <div id="signupModal" class="modal2">
 
             <!-- Modal content -->
             <div class="modal-content-signup">
@@ -84,7 +84,25 @@
                     <div id="nm">Not a member? <span id="redirect">Sign Up</span></div>
                 </form>
             </div>
+        </div>
 
+        <!-- Insert code for Create Post modal here -->
+        <div id="createPostModel" class="modal2">
+
+            <!-- Modal content -->
+            <div class="modal-content-create">
+                <span class="closeCreate">&times;</span>
+                <h1 id="head1">Pen Your Post</h1>
+                <form>
+                    <br>
+                    <span id="head1">Title:</span><br>
+                    <input type="textbox" id="title1">
+                    <br><br>
+                    <span id="head1">Content:</span><br>
+                    <input type="textbox" id="content">
+                    <button id="sub2">Create</button>
+                </form>
+            </div>
         </div>
     </div>
 </body>
