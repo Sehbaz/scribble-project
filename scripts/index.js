@@ -26,7 +26,7 @@ window.onclick = function (event) {
 
 
 // Sign In model
-var singinmodal = document.getElementById("signinModal");
+var signinmodal = document.getElementById("signinModal");
 // Get the button that opens the modal
 var btnsi = document.getElementById("si");
 // Get the <span> element that closes the modal
