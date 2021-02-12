@@ -46,3 +46,11 @@ window.onclick = function (event) {
         signinModal.style.display = "none";
     }
 }
+
+
+// Redirecting form login
+var sp = document.getElementById("redirect");
+sp.onclick = function () {
+    signinmodal.style.display = "none";
+    signupmodal.style.display = "block";
+}
